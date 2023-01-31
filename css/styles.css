@@ -5,13 +5,14 @@
   --card-buttons-color: #f4f4fd;
   --acent-color: #404bbf;
   --main-font: "Roboto", sans-serif;
+  --main-white-color: #fff;
 }
 
 body {
   font-family: var(--main-font);
   font-size: 16px;
   color: var(--p-color);
-  background-color: #fff;
+  background-color: var(--main-white-color);
 }
 
 /* header */
@@ -30,26 +31,21 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 133%;
+  letter-spacing: 0.03em;
 }
 
 .logo-title {
   color: var(--main-color);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 /* site-nav */
 
 .site-nav .link {
   color: var(--main-text-color);
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -64,9 +60,8 @@ body {
 .address-list .link {
   color: var(--p-color);
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .address-list .link:hover,
@@ -80,20 +75,20 @@ body {
   background-color: var(--main-text-color);
 }
 .hero-title {
-  color: #fff;
-  font-style: normal;
-  font-weight: 700;
+  color: var(--main-white-color);
   font-size: 56px;
-  line-height: 60px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
 }
 .hero-button {
-  color: #fff;
+  color: var(--main-white-color);
   background-color: var(--main-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -105,27 +100,34 @@ body {
 
 .section {
 }
-.section-title {
+.section-subtitle {
   color: var(--main-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
 }
+
+.section-title {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
 .section-text {
   color: var(--p-color);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .section-title-top {
   color: var(--main-text-color);
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .section-team {
@@ -133,23 +135,23 @@ body {
 }
 
 .people-card {
-  background-color: #fff;
+  background-color: var(--main-white-color);
 }
 
 .nav-buttons {
   background-color: var(--card-buttons-color);
   color: var(--main-color);
   border: 1px solid #e7e9fc;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
+  cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .nav-buttons:hover,
 .nav-buttons:focus {
   background-color: var(--acent-color);
-  color: #fff;
+  color: var(--main-white-color);
 }
 
 /* footer */
@@ -169,8 +171,5 @@ body {
 
 .footer-title {
   color: #e7e9fc;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
 }
